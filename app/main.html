@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>lkl</title>
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+</head>
+<body class="dark_bg">
+    <header class="header">
+        <span class="logo"></span>
+        <span class="category">火车票</span>
+        <span class="exit_btn"></span>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="step_1 active">
+                <span class="pre"></span>
+                <span class="text">火车票查询</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_2">
+                <span class="pre"></span>
+                <span class="text">选择车次</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_3">
+                <span class="pre"></span>
+                <span class="text">选乘客</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_4">
+                <span class="pre"></span>
+                <span class="text">核对乘客信息</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_5">
+                <span class="pre"></span>
+                <span class="text">刷卡支付票款</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_6">
+                <span class="pre"></span>
+                <span class="text">车站换票乘车</span>
+                <span class="next"></span>
+            </li>
+        </ul>
+    </nav>
+    <div class="contents dark_bg search_inputs">
+        <div class="basic_row">
+            <label for="">出发地</label>
+            <input type="text" class="origin">
+        </div>
+        <div class="basic_row">
+            <label for="">目的站</label>
+            <input type="text" class="dest">
+        </div>
+        <div class="basic_row">
+            <label for="">出发时间</label>
+            <input type="text" class="time">
+        </div>
+        <div class="basic_row">
+            <label for="">车次类型</label>
+            <input type="text" class="type">
+        </div>
+        <div class="basic_row">
+            <label for=""></label>
+            <span class="query_btn"></span>
+        </div>
+        <p class="hint">每日上午 07：00 - 晚上22：30，可售票！其余时段，只能查询列车时刻！</p>
+
+        <span class="business_type">
+            <div class="preserve active">车票预定</div>
+            <div class="refund">退票/改签</div>
+        </span>
+
+    </div>
+</body>
+</html>
+

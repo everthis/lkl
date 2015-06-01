@@ -1,0 +1,91 @@
+.calendar_section {
+	padding: 20px;
+	.title_row {
+		@extend %inline-block-fix;
+		.title {
+			font-size: 24px;
+			height: 50px;
+			line-height: 50px;
+			color: #72abec;
+		}
+		.right {
+			float: right;
+		}
+	}
+	.pre_next {
+		@extend %inline-block-fix;
+		position: relative;
+		margin: 20px 0 10px 0;
+
+		> span {
+			height: 60px;
+			line-height: 60px;
+			font-size: 24px;
+			cursor: pointer;
+		}
+		.pre {
+			width: 20%;
+			background: url('../images/pre_next_light.png') repeat-x;
+			i {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				background: url('../images/left_mark.png') center no-repeat;
+			}
+		}
+		.date {
+			width: 60%;
+			text-align: center;
+			background: url('../images/pre_next_dark.png') repeat-x;
+			color: white;
+		}
+		.next {
+			width: 20%;
+			background: url('../images/pre_next_light.png') repeat-x;
+			i {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				background: url('../images/right_mark.png') center no-repeat;
+
+			}
+		}
+	}
+	.weekdays {
+		@extend %inline-block-fix;
+		background: #e9e9e9;
+		margin: 0 0 2px 0;
+		.weekday {
+			height: 50px;
+			line-height: 50px;
+			width: 14.28%;
+			font-size: 24px;
+			text-align: center;
+			color: #333;
+		}
+
+	}
+	.days {
+		@extend %inline-block-fix;
+		.day {
+			width: 14.28%;
+			height: 70px;
+			line-height: 70px;
+			font-size: 24px;
+			text-align: center;
+			color: white;
+			border-left: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			&.invalid {
+				background: #ccc;
+			}
+			&.valid {
+				background: #5091cd;
+				&.current {
+					background: #ff6c00;
+				}
+			}
+		}
+	}
+
+}
