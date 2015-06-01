@@ -1,0 +1,23 @@
+html,
+body {
+	height: 100%;
+}
+body.dark_bg {
+	background-color: $dark_bg;
+}
+.row {
+    @extend %inline-block-fix;
+    text-align: center;
+    .right {
+        float: right;
+    }
+}
+.dark_bg {
+	background-color: $dark_bg;
+}
+.orange {
+	color: $orange;
+}
+.grey_btn {
+	background-color: #ddd !important;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>lkl</title>
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+</head>
+<body class="dark_bg">
+    <header class="header">
+        <span class="logo"></span>
+        <span class="category">火车票</span>
+        <span class="exit_btn"></span>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="step_1">
+                <span class="pre"></span>
+                <span class="text">火车票查询</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_2 active">
+                <span class="pre"></span>
+                <span class="text">选择车次</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_3">
+                <span class="pre"></span>
+                <span class="text">选乘客</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_4">
+                <span class="pre"></span>
+                <span class="text">核对乘客信息</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_5">
+                <span class="pre"></span>
+                <span class="text">刷卡支付票款</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_6">
+                <span class="pre"></span>
+                <span class="text">车站换票乘车</span>
+                <span class="next"></span>
+            </li>
+        </ul>
+    </nav>
+    <div class="contents dark_bg">
+        <div class="row">
+            <span class="ends">
+                <span class="origin">上海</span>
+                <span class="sep">-</span>
+                <span class="dest">北京</span>
+                <span class="result">(共25趟列车)</span>
+            </span>
+            <span class="date_span">
+                <span class="pre"><i></i>前一天</span>
+                <span class="date">2015-05-23</span>
+                <span class="next"><i></i>后一天</span>
+            </span>
+            <span class="right">
+                <input type="button" class="re_query_btn">
+            </span>
+        </div>
+
+        <div class="results">
+            <div class="header">
+                <span class="code">车次</span>
+                <span class="origin">出发地</span>
+                <span class="dest">目的地</span>
+                <span class="duration">耗时</span>
+                <span class="remaining">席别/余票</span>
+                <span class="price">票价</span>
+                <span class="action detail_header"></span>
+            </div>
+            <div class="result_body">
+                <div class="per_result per_result_detail">
+                    <span class="four_col">
+                        <span class="code">K1374</span>
+                        <span class="origin">
+                            <div>上海</div>
+                            <div>00:36</div>
+                        </span>
+                        <span class="dest">
+                            <div>北京</div>
+                            <div>15:36</div>
+                        </span>
+                        <span class="duration">14时55分</span>
+                    </span>
+                    <span class="three_col">
+                        <div class="three_col_row">
+                            <span class="remaining">
+                                <div>硬卧</div>
+                                <div>545张</div>
+                            </span>
+                            <span class="price">272.50</span>
+                            <span class="action">
+                                <input type="button" class="preserve_btn" value="预 定">
+                            </span>
+
+                        </div>
+
+                        <div class="three_col_row">
+                            <span class="remaining">
+                                <div>硬卧</div>
+                                <div>0张</div>
+                            </span>
+                            <span class="price">272.50</span>
+                            <span class="action">
+                                <input type="button" class="preserve_btn grey_btn" value="预 定">
+                            </span>
+
+                        </div>
+
+                        <div class="three_col_row">
+                            <span class="remaining">
+                                <div>硬卧</div>
+                                <div class="orange">25张</div>
+                            </span>
+                            <span class="price">272.50</span>
+                            <span class="action">
+                                <input type="button" class="preserve_btn" value="预 定">
+                            </span>
+
+                        </div>
+
+                    </span>
+
+                </div>
+            </div>
+
+        <div class="row">
+            <span class="return_query_list">返回车次列表</span>
+            <span class="timeline">查看时刻表</span>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
