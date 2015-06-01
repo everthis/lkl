@@ -33,7 +33,7 @@
 	.hint {
 		text-align: center;
 		color: #78aad8;
-	  margin: 30px 0 0 0;
+	    margin: 30px 0 0 0;
 	}
 	.business_type {
 		position: absolute;
@@ -57,5 +57,42 @@
 		.refund {
 			border-radius: 0 0 0 5px;
 		}
+	}
+}
+
+.popup_train_type {
+	background-color: white;
+	width: 632px;
+	height: 277px;
+	border-radius: 8px;
+	.header {
+		font-size: 24px;
+		text-align: center;
+		position: relative;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.cancel_btn {
+		position: absolute;
+		top: 15px;
+		right: 0;
+	}
+	.body {
+		@extend %inline-block-fix;
+		padding: 26px 20px 0 20px;
+		margin-left: -10px;
+		overflow: hidden;
+	}
+	.per_type {
+		width: 25%;
+		font-size: 24px;
+		height: 70px;
+		line-height: 60px;
+		text-align: center;
+		background-color: #3393ec;
+		color: white;
+		
+		border-left: 10px solid white;
+		border-bottom: 10px solid white;
 	}
 }

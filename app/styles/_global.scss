@@ -30,3 +30,31 @@ body.dark_bg {
 	height: 50px;
 	background: url('../images/return.png') no-repeat;
 }
+.cancel_btn {
+	@extend .return_btn;
+	background: url('../images/cancel_btn.png') no-repeat;
+
+}
+.hide {
+	display: none !important;
+}
+.shadow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.8);
+}
+[class^="popup_"] {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	.header {
+		height: 80px;
+		line-height: 50px;
+		padding: 15px 0;
+		margin: 0 15px;
+	}
+}
