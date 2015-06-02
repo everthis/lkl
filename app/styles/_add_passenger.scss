@@ -1,0 +1,69 @@
+ .add_passenger_section {
+ 	padding: 20px 0;
+ 	margin: 0 20px;
+ 	.add_p_bar {
+ 		@extend %inline-block-fix;
+ 		position: relative;
+ 		  margin: 20px 0 10px 0;
+ 		  > span {
+ 		  	height: 60px;
+		  line-height: 60px;
+		  font-size: 24px;
+		  cursor: pointer;
+ 		  }
+ 		.left {
+ 			width: 30%;
+ 			  background: url("../images/pre_next_light.png") repeat-x;
+ 		}
+ 		.add_new {
+ 			  width: 40%;
+			  text-align: center;
+			  background: url("../images/pre_next_dark.png") repeat-x;
+			  color: white;
+ 		}
+ 		.right {
+ 			width: 30%;
+		  background: url("../images/pre_next_light.png") repeat-x;
+ 		}
+ 	}
+ 	.passengers {
+
+ 	}
+ 	.per_passenger {
+ 		@extend %inline-block-fix;
+ 		height: 70px;
+ 		line-height: 70px;
+ 		border-bottom: 1px solid #ddd;
+ 		> span {
+ 			font-size: 18px;
+ 			text-align: center;
+ 		}
+ 		.checkbox {
+ 			width: 5%;
+ 			input {
+ 				width: 30px;
+ 				height: 30px;
+ 				vertical-align: middle;
+ 			}
+ 		}
+ 		.name {
+ 			width: 15%;
+ 		}
+ 		.cre_type {
+ 			width: 15%;
+ 		}
+ 		.cre_num {
+ 			width: 35%;
+ 		}
+ 		.status {
+ 			width: 10%;
+ 		}
+ 		.action {
+ 			width: 20%;
+ 		}
+ 		&.choosen {
+ 			background-color: #dbeeff;
+ 		}
+
+ 	}
+ }

@@ -11,12 +11,24 @@ body.dark_bg {
     .right {
         float: right;
     }
+    .left {
+    	float: left;
+    }
 }
 .basic_row {
     @extend %inline-block-fix;
+    .right {
+        float: right;
+    }
+    .left {
+    	float: left;
+    }
 }
 .dark_bg {
 	background-color: $dark_bg;
+}
+.light_grey_bg {
+	background-color: $light_grey;
 }
 .orange {
 	color: $orange;
@@ -33,7 +45,52 @@ body.dark_bg {
 .cancel_btn {
 	@extend .return_btn;
 	background: url('../images/cancel_btn.png') no-repeat;
-
+}
+.cancel_grey_btn {
+	@extend .return_btn;
+	background: url('../images/cancel_grey.png') no-repeat;
+}
+.confirm_btn {
+	@extend .return_btn;
+	background: url('../images/confirm.png') no-repeat;
+}
+.add_passenger_btn {
+	background-color: #ff6c00;
+	  border-radius: 5px;
+	  font-size: 24px;
+	  color: white;
+	  padding: 5px 15px;
+	  line-height: 24px;
+	  height: 38px;
+}
+.success {
+	color: #00b32a;
+}
+.invalid {
+	color: #a0a0a0;
+}
+.fixed_bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.white {
+	color: white;
+}
+.grey_return_btn {
+	color: #000;
+	  font-size: 20px;
+	background-color: #d2d2d2;
+	  border-radius: 5px;
+	  padding: 5px 25px;
+	  line-height: 24px !important;
+	  height: 38px !important;
+}
+.confirm_preservation_btn {
+	@extend .grey_return_btn;
+	color: white;
+	background-color: #0084ff;
 }
 .hide {
 	display: none !important;
