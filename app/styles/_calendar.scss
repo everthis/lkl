@@ -85,6 +85,12 @@
 					background: #ff6c00;
 				}
 			}
+			@media (max-width: 860px) {
+				& {
+					height: 60px;
+					line-height: 60px;
+				}
+			}
 		}
 	}
 

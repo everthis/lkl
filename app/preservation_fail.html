@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>lkl</title>
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+</head>
+<body class="dark_bg">
+    <header class="header">
+        <span class="logo"></span>
+        <span class="category">火车票</span>
+        <span class="exit_btn"></span>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="step_1">
+                <span class="pre"></span>
+                <span class="text">火车票查询</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_2">
+                <span class="pre"></span>
+                <span class="text">选择车次</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_3">
+                <span class="pre"></span>
+                <span class="text">选乘客</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_4 active">
+                <span class="pre"></span>
+                <span class="text">锁票</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_5">
+                <span class="pre"></span>
+                <span class="text">刷卡支付票款</span>
+                <span class="next"></span>
+            </li>
+            <li class="step_6">
+                <span class="pre"></span>
+                <span class="text">车站换票乘车</span>
+                <span class="next"></span>
+            </li>
+        </ul>
+    </nav>
+    <div class="contents dark_bg preservation_section pay_countdown_section">
+        <div class="order_status">
+            <span class="status dark_red">占座失败</span>
+            <span class="seperate"></span>
+            <span class="text">身份核验未通过</span>
+        </div>
+        <div class="preserve_header">
+            <span class="code">车次</span>
+            <span class="origin">出发地</span>
+            <span class="dest">目的地</span>
+            <span class="duration">耗时</span>
+            <span class="ticket_type">席别</span>
+            <span class="price">票价</span>
+            <span class="quantity">数量</span>
+            <span class="total">合计</span>
+        </div>
+        <div class="preserve_body">
+            <span class="code">K1374</span>
+            <span class="origin">
+                <div>上海</div>
+                <div>00:36</div>
+            </span>
+            <span class="dest">
+                <div>北京</div>
+                <div>15:36</div>
+            </span>
+            <span class="duration">14时55分</span>
+            <span class="ticket_type">硬卧</span>
+            <span class="price">272.50</span>
+            <span class="quantity">0张</span>
+            <span class="total">0</span>
+        </div>
+
+        <div class="passengers_header">
+            <span class="name">乘客姓名</span>
+            <span class="cre_type">证件类型</span>
+            <span class="cre_num">证件号码</span>
+            <span class="action">订单状态</span>
+        </div>
+        <div class="passengers_body">
+            <div class="per_passenger">
+                <span class="name">刘福贵</span>
+                <span class="cre_type">身份证</span>
+                <span class="cre_num">541256321025874102</span>
+                <span class="action">关闭</span>
+            </div>
+            <div class="hint hide">未添加乘客</div>
+        </div>
+
+        <div class="basic_row">
+            <a href="#" class="right doc_link">取票退票改签说明</a>
+        </div>
+
+        <div class="fixed_bottom preserve_bottom">
+            <span class="text white">票价</span>
+            <span class="total_price text">272.50</span>
+            <span class="text white">元</span>
+            <span class="re_order_btn">重新下单</span>
+        </div>
+
+        <div class="shadow hide">
+            <div class="popup_preservation">
+                  <div class="content">
+                        <span class="warning"></span>
+                        <span class="text">
+                            <div>提示</div>
+                            <div>请您添加乘客信息</div>
+                        </span>
+                  </div>
+                  <div class="actions">
+                        <a class="small_grey_cancel_btn" href=""></a>
+                        <a class="confirm_btn" href=""></a>
+                  </div>
+           </div>
+        </div>
+
+    </div>
+</body>
+</html>
+

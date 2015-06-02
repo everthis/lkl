@@ -59,9 +59,18 @@ body.dark_bg {
 	height: 64px;
 	background: url('../images/warning.png') center no-repeat;
 }
+.rage_icon {
+	@extend .warning;
+	height: 72px;
+	background: url('../images/rage.png') center no-repeat;
+}
 .grey {
 	color: grey;
 }
+.dark_red {
+	color: #b7301a;
+}
+
 .h30 {
 	height: 30px;
 	line-height: 30px;
@@ -112,6 +121,17 @@ body.dark_bg {
 	width: 201px;
 	height: 48px;
 }
+.go_on_btn {
+	@extend .return_btn;
+	background: url('../images/yes.png') no-repeat;
+	width: 190px;
+	height: 40px;
+}
+.retry_btn {
+	@extend .go_on_btn;
+	background: url('../images/nope.png') no-repeat;
+
+}
 .add_passenger_btn {
 	background-color: #ff6c00;
 	  border-radius: 5px;
@@ -120,6 +140,23 @@ body.dark_bg {
 	  padding: 5px 15px;
 	  line-height: 24px;
 	  height: 38px;
+}
+.cancel_order_btn {
+	color: #000;
+	  font-size: 20px;
+	  background-color: #d2d2d2;
+	  border-radius: 5px;
+	  padding: 5px 25px;
+	  line-height: 24px !important;
+	  height: 38px !important;
+}
+.cd_pay_btn {
+	@extend .cancel_order_btn;
+	color: white;
+	background-color: #ff6c00;
+}
+.re_order_btn {
+	@extend .cd_pay_btn;
 }
 .success {
 	color: #00b32a;
