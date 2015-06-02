@@ -418,3 +418,47 @@ nav {
    margin: 15px 5px 0 5px;
 
 }
+.popup_query_list {
+    display: inline-block;
+    width: 632px;
+    height: 309px;
+    padding: 25px;
+    background: url('../images/step2pop_bg.png') repeat-x;
+    border-radius: 8px;
+    .content {
+        height: 190px;
+        border-bottom: 1px solid #ddd;
+        padding: 15px 0 0 0;
+    }
+    .label_row {
+        span {
+            font-size: 18px;
+        }
+        .label {
+            padding: 0 20px 0 0;
+        }
+        .input {
+            width: 55%;
+        }
+    }
+    .sms_code {
+        margin: 38px 0 0 0;
+    }
+    .countdown {
+        margin-left: 10px;
+    }
+    .hint {
+        margin: 10px 0 0 0;
+    }
+    .actions {
+        height: 69px;
+        text-align: center;
+        padding: 25px 0 0 0;
+        a {
+            vertical-align: top;
+        }
+        .confirm_btn {
+            margin-left: 10px;
+        }
+    }
+}

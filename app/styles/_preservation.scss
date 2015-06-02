@@ -85,6 +85,9 @@
 			text-align: center;
 			color: white;
 			font-size: 18px;
+			border-left: 1px solid #5a5a5a;
+			border-right: 1px solid #5a5a5a;
+			border-bottom: 1px solid #5a5a5a;
 		}
 	}
 	.per_passenger {
@@ -134,6 +137,41 @@
 		.total_price {
 			color: #b7301a;
 			margin: 0 10px;
+		}
+	}
+	.popup_preservation {
+		width: 532px;
+		height: 245px;
+		border-radius: 8px;
+		padding: 25px;
+		background: url('../images/step3pop_bg.png') repeat-x;
+		.content {
+			@extend %inline-block-fix;
+			height: 125px;
+			border-bottom: 1px solid #ddd;
+			text-align: center;
+			padding: 21px 0 0 0;
+		}
+		.text {
+			font-size: 24px;
+			text-align: left;
+			margin: 0 0 0 40px;
+			div {
+				height: 32px;
+				line-height: 32px;
+			}
+		}
+		.actions {
+			height: 70px;
+			text-align: center;
+			padding: 25px 0 0 0;
+			font-size: 0;
+			a {
+				vertical-align: top;
+			}
+			.confirm_btn {
+				margin-left: 17px;
+			}
 		}
 	}
 }
