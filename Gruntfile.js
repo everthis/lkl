@@ -318,15 +318,15 @@ module.exports = function (grunt) {
     htmlmin: {
       dist: {
         options: {
-          collapseBooleanAttributes: false,
-          collapseWhitespace: false,
-          conservativeCollapse: false,
-          removeAttributeQuotes: false,
-          removeCommentsFromCDATA: false,
-          removeEmptyAttributes: false,
-          removeOptionalTags: false,
-          removeRedundantAttributes: false,
-          useShortDoctype: false
+          collapseBooleanAttributes: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          removeAttributeQuotes: true,
+          removeCommentsFromCDATA: true,
+          removeEmptyAttributes: true,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          useShortDoctype: true
         },
         files: [{
           expand: true,
