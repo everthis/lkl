@@ -92,7 +92,7 @@
             <span class="action">操作</span>
         </div>
         <div class="passengers_body">
-            <div class="per_passenger">
+            <div class="per_passenger hide">
                 <span class="name">刘福贵</span>
                 <span class="cre_type">身份证</span>
                 <span class="cre_num">541256321025874102</span>
@@ -101,7 +101,7 @@
                     <a class="delete" href="">删除</a>
                 </span>
             </div>
-            <div class="hint hide">未添加乘客</div>
+            <div class="hint">未添加乘客</div>
         </div>
 
         <div class="basic_row">
@@ -148,7 +148,7 @@
            </div>
         </div>
 
-        <div class="shadow ordering">
+        <div class="shadow ordering hide">
             <div class="popup_preservation">
                   <div class="ordering_header">订单已提交，正马不停蹄为您购票</div>
                   <div class="gif">
@@ -157,7 +157,22 @@
            </div>
         </div>
 
+        <div class="shadow dupe hide">
+            <div class="popup_preservation">
+
+                  <div class="content">
+                      <div class="dupe_header">温馨提示</div>
+                      <div class="dupe_text">您已购买*年*月*日***次的车票，不可以重复购买</div>
+                  </div>
+                  <div class="actions">
+                        <a class="confirm_btn" href=""></a>
+                  </div>
+           </div>
+        </div>
+
     </div>
+
+    <script src="./scripts/preservation.js"></script>
 </body>
 </html>
 

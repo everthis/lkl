@@ -1,5 +1,10 @@
 .search_inputs {
 	position: relative;
+	@media (min-width: 860px) {
+		&.contents {
+			padding: 80px 18px 0 18px;
+		}
+	}
 	.basic_row {
 		@extend %inline-block-fix;
 		height: 44px;
