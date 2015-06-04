@@ -209,9 +209,18 @@
 		.gif {
 			text-align: center;
 			margin-top: 50px;
+			img {
+				border-radius: 0 0 5px 5px;
+			}
 		}
 	}
 	.ordering {
+		.popup_preservation {
+			width: 430px;
+			height: 225px;
+			padding: 25px 0 0 0;
+
+		}
 		.ordering_header {
 			text-align: center;
 		  font-weight: normal;
