@@ -107,7 +107,7 @@
 			}
 		}
 		.edit {
-			margin: 0 20px 0 0;
+			// margin: 0 20px 0 0;
 			color: #2978c5;
 		}
 		.delete {
@@ -123,6 +123,15 @@
 	}
 	.cre_num {
 		width: 25%;
+	}
+	.per_passenger.adult {
+		.edit_span {
+			width: 15%;
+			text-align: center;
+		}
+		.action {
+			width: 10%;
+		}
 	}
 	.per_passenger.child {
 		.ins_link {

@@ -83,7 +83,7 @@
                 <span class="duration">耗时</span>
                 <span class="remaining">席别/余票</span>
                 <span class="price">票价</span>
-                <span class="action"><i></i>筛选车次</span>
+                <span class="action filter_btn"><i></i>筛选车次</span>
             </div>
             <div class="result_body">
                 <div class="per_result">
@@ -151,7 +151,7 @@
             </div>
         </div>
 
-        <div class="shadow sms_val hide">
+<!--         <div class="shadow sms_val hide">
             <div class="popup_query_list">
                   <div class="content">
                         <div class="label_row">
@@ -172,6 +172,61 @@
                         <a class="small_grey_cancel_btn" href=""></a>
                         <a class="confirm_btn" href=""></a>
                   </div>
+           </div>
+        </div> -->
+
+
+        <div class="shadow filter hide">
+            <div class="popup_filter filter_section">
+                <div class="title">请选择筛选条件</div>
+                <div class="label_row ve_type">
+                    <label class="label" for="">车次类型</label>
+                    <span>
+                        <span class="per_filter active">不限</span>
+                        <span class="per_filter">高铁（G）</span>
+                        <span class="per_filter">动车（D）</span>
+                        <span class="per_filter">特快（T）</span>
+                        <span class="per_filter">普快（K）</span>
+                        <span class="per_filter">直达（Z）</span>
+                        <span class="per_filter">其它</span>
+                    </span>
+
+                </div>
+
+                <div class="label_row">
+                    <label class="label" for="">席别</label>
+                    <span class="per_filter active">不限</span>
+                    <span class="per_filter">一等座</span>
+                    <span class="per_filter">二等座</span>
+                    <span class="per_filter">硬卧</span>
+                    <span class="per_filter">软卧</span>
+                </div>
+
+                <div class="label_row">
+                    <label class="label" for="">发车时段</label>
+                    <span class="per_filter active">不限</span>
+                    <span class="per_filter">6:00-12:00</span>
+                    <span class="per_filter">12:00-18:00</span>
+                    <span class="per_filter">18:00-24:00</span>
+                    <span class="per_filter">0:00-6:00</span>
+                </div>
+
+                <div class="label_row">
+                    <label class="label" for="">到达时段</label>
+                   <span class="per_filter active">不限</span>
+                   <span class="per_filter">6:00-12:00</span>
+                   <span class="per_filter">12:00-18:00</span>
+                   <span class="per_filter">18:00-24:00</span>
+                   <span class="per_filter">0:00-6:00</span>
+                </div>
+
+                <div class="label_row">
+                    <label class="label"></label>
+                    <span class="actions">
+                        <a href="" class="small_grey_cancel_btn"></a>
+                        <a href="" class="confirm_btn"></a>
+                    </span>
+                </div>
            </div>
         </div>
 
