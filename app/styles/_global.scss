@@ -71,13 +71,13 @@ body.dark_bg {
 	color: #b7301a;
 }
 a:active {
-	color: #b7301a !important;
+	color: #4da9ff !important;
 }
 [class*="_btn"] {
-	border-radius: 5px;
+	border-radius: 6px;
 }
 [class*="_btn"]:active {
-	box-shadow: 0 0 1px 3px #b7301a;
+	box-shadow: 0 0 1px 3px #4da9ff;
 }
 .h30 {
 	height: 30px;
@@ -118,6 +118,8 @@ a:active {
 .confirm_btn {
 	@extend .return_btn;
 	background: url('../images/confirm.png') no-repeat;
+	width: 130px;
+	height: 40px;
 }
 .confirm_glow_btn {
 	@extend .return_btn;
@@ -156,7 +158,7 @@ a:active {
 	.submenu {
 		width: 100%;
 		position: absolute;
-		background-color: #5a5a5a;
+		background-color: white;
 		top: 38px;
 		left: 0;
 		border-radius: 5px;
@@ -170,13 +172,16 @@ a:active {
 			margin: 5px 0;
 			text-align: center;
 			font-weight: 400;
+			color: black;
 		}
 		a {
 			font-size: 16px;
 			display: block;
-			color: white;
+			color: black;
 			padding: 0 0 0 5px;
 			text-align: left;
+			height: 30px;
+			line-height: 30px;
 		}
 	}
 }
