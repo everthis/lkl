@@ -70,7 +70,15 @@ body.dark_bg {
 .dark_red {
 	color: #b7301a;
 }
-
+a:active {
+	color: #b7301a !important;
+}
+[class*="_btn"] {
+	border-radius: 5px;
+}
+[class*="_btn"]:active {
+	box-shadow: 0 0 1px 3px #b7301a;
+}
 .h30 {
 	height: 30px;
 	line-height: 30px;
@@ -140,6 +148,40 @@ body.dark_bg {
 	  padding: 5px 15px;
 	  line-height: 24px;
 	  height: 38px;
+}
+.add_child_btn {
+	@extend .add_passenger_btn;
+	margin: 0 0 0 10px;
+	position: relative;
+	.submenu {
+		width: 100%;
+		position: absolute;
+		background-color: #5a5a5a;
+		top: 38px;
+		left: 0;
+		border-radius: 5px;
+		  padding: 0 0 5px 0;
+		  z-index: 9999;
+		div {
+			font-size: 18px;
+		}
+		h6 {
+			font-size: 12px;
+			margin: 5px 0;
+			text-align: center;
+			font-weight: 400;
+		}
+		a {
+			font-size: 16px;
+			display: block;
+			color: white;
+			padding: 0 0 0 5px;
+			text-align: left;
+		}
+	}
+}
+.templ {
+	display: none;
 }
 .cancel_order_btn {
 	color: #000;

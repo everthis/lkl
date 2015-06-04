@@ -92,19 +92,44 @@
             <span class="action">操作</span>
         </div>
         <div class="passengers_body">
-            <div class="per_passenger hide">
+            <div class="per_passenger adult">
                 <span class="name">刘福贵</span>
                 <span class="cre_type">身份证</span>
                 <span class="cre_num">541256321025874102</span>
                 <span class="action">
                     <a class="edit" href="">查看</a>
-                    <a class="delete" href="">删除</a>
+                    <a class="delete" href="javascript:;">删除</a>
                 </span>
             </div>
-            <div class="hint">未添加乘客</div>
+            <div class="per_passenger child">
+                <span class="name"><span class="adult_name">刘福贵</span>(儿童票)</span>
+                <span class="instructions">身高1.2-1.5米需购儿童票，用<span class="adult_name">刘福贵</span>证件取票</span>
+                <span class="ins_link"><a href="#">儿童票说明</a></span>
+                <span class="action">
+                    <a class="delete" href="javascript:;">删除</a>
+                </span>
+            </div>
+            <div class="hint hide">未添加乘客</div>
+        </div>
+
+        <div class="per_passenger child templ">
+            <span class="name"><span class="adult_name"></span>(儿童票)</span>
+            <span class="instructions">身高1.2-1.5米需购儿童票，用<span class="adult_name"></span>证件取票</span>
+            <span class="ins_link"><a href="#">儿童票说明</a></span>
+            <span class="action">
+                <a class="delete" href="javascript:;">删除</a>
+            </span>
         </div>
 
         <div class="basic_row">
+            <span class="right add_child_btn">添加儿童
+                <span class="submenu hide">
+                    <h6>成人证件买儿童票</h6>
+                    <a href="#">李福贵</a>
+                    <a href="#">李贵</a>
+                    <a href="#">李福</a>
+                </span>
+            </span>
             <span class="right add_passenger_btn">添加乘车人</span>
         </div>
 

@@ -95,9 +95,16 @@
 		border-left: 1px solid #5a5a5a;
 		border-right: 1px solid #5a5a5a;
 		border-bottom: 1px solid #5a5a5a;
+		margin: 0;
 		> span {
 			height: 80px;
 			line-height: 80px;
+			@media (max-width: 860px) {
+				& {
+					line-height: 50px;
+					height: 50px;
+				}
+			}
 		}
 		.edit {
 			margin: 0 20px 0 0;
@@ -116,6 +123,20 @@
 	}
 	.cre_num {
 		width: 25%;
+	}
+	.per_passenger.child {
+		.ins_link {
+			width: 15%;
+			a {
+				color: #2978c5;
+			}
+		}
+		.instructions {
+			width: 50%;
+		}
+		.action {
+			width: 10%;
+		}
 	}
 	.action {
 		width: 25%;

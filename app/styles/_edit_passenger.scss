@@ -8,12 +8,22 @@
 	}
 	.label_row {
 		margin: 40px 0 0 0;
+		@media (max-width: 860px) {
+			margin: 25px 0 0 0;
+		}
 		&.cre_type {
 			.label {
 				height: 50px;
 				line-height: 50px;
 			}
 		}
+		&.passenger_type {
+			.label {
+				height: 50px;
+				line-height: 50px;
+			}
+		}
+
 		&.action {
 			label,
 			a {
